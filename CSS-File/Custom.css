@@ -1,0 +1,94 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  background: #ecf0f3;
+  color: #0b1731;
+  font-size: 15px;
+}
+.Container
+{
+  width: 1170px;
+  margin: 50px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.Card
+{
+  width: 330px;
+  padding: 20px 10px;
+  box-shadow: 8px 8px 12px #ceced1,
+              -8px -8px 12px #fafbfc;
+  border-radius: 10px;
+  background: #ecf0f3;
+  color: #32A3B1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+}
+.Imgbox
+{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.Imgbox img
+{
+  width: 100%;
+}
+.Content
+{
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
+}
+.Content h3
+{
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.Content p
+{
+  text-transform: capitalize;
+  font-size: 15px;
+  line-height: 22px;
+}
+.Content a
+{
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 20px 0;
+  display: inline-block;
+  padding: 10px 25px;
+  background: #ecf0f3;
+  box-shadow: 4px 4px 8px #ceced1,
+              -4px -4px 8px #fafbfc;
+  border-radius: 4px;
+  color: #32A3B1;
+  transition: .5s;
+}
+.Card:hover
+{
+  box-shadow: inset 4px 4px 8px #ceced1,
+              inset -4px -4px 8px #fafbfc;
+}
+.Card:hover a
+{
+  box-shadow: inset 3px 3px 5px #ceced1,
+              inset -3px -3px 5px #fafbfc;
+}
+.Card span:hover
+{
+  display: inline-block;
+  transform: scale(.98);
+}
